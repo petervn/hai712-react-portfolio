@@ -67,11 +67,11 @@ class Testimonial extends React.Component {
       <>
         <Title>Reviews</Title>
         <div className="testimonial mb-5">
-          {/* <Slider {...settings}> */}
-          {this.state.testimonials.map((item) => (
-            <ReviewBox key={item.id} {...item} />
-          ))}
-          {/* </Slider> */}
+          <Slider {...settings}>
+            {this.state.testimonials.map((item) => (
+              <ReviewBox key={item.id} {...item} />
+            ))}
+          </Slider>
         </div>
       </>
     );
