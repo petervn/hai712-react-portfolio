@@ -45,24 +45,24 @@ class Testimonial extends React.Component {
   };
 
   render() {
-    const settings = {
-      dots: true,
-      infinite: true,
-      arrows: false,
-      speed: 1000,
-      autoplaySpeed: 3000,
-      autoplay: true,
-      slidesToShow: 2,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 1,
-          },
-        },
-      ],
-    };
+    // const settings = {
+    //   dots: true,
+    //   infinite: true,
+    //   arrows: false,
+    //   speed: 1000,
+    //   autoplaySpeed: 3000,
+    //   autoplay: true,
+    //   slidesToShow: 2,
+    //   slidesToScroll: 1,
+    //   responsive: [
+    //     {
+    //       breakpoint: 992,
+    //       settings: {
+    //         slidesToShow: 1,
+    //       },
+    //     },
+    //   ],
+    // };
     return (
       <>
         <Title>Reviews</Title>
